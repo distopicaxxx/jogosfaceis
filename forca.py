@@ -1,9 +1,9 @@
 def jogar():
-    print("J̲O̲G̲O̲ D̲A̲ F̲O̲R̲C̲A̲​​​​ ​\n")
+    print("enforcado ​\n")
     print('Neste jogo você deve descobrir a palavra secreta antes de ser enforcado, boa sorte !\n')
 
 #Palavra secreta é a palavra a qual deverá ser acertada pelo jogador
-    palavra_secreta = "maça".upper()
+    palavra_secreta = "cu azul".upper()
     letras_acertadas = ["_" for letra in palavra_secreta]
 
     enforcou = False
@@ -27,7 +27,7 @@ def jogar():
             print("A palavra não possui essa letra")
             erros += 1
 
-        enforcou = erros == 6
+        enforcou = erros == 10
         acertou = "_" not in letras_acertadas
         print(letras_acertadas)
 
